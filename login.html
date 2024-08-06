@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>login</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="flex flex-col justify-center items-center h-screen bg-gradient-to-t from-black via-purple-900 to-violet-600">
+                                            <div class=" md:w-auto w-[90%] p-8 rounded-xl  m-4 flex flex-col items-center shadow-lg border border-gray-400 opacity-90 ">
+                                                <div class="text-xl cursor-pointer flex flex-col justify-center items-center mt-5 md:mt-0 ">
+                                                    <h1 class="font-semibold text-3xl text-gray-200 m-2">Want to join us??</h1>
+                                                    <h6 class="font-semibold text-xl text-gray-200 m-2">(We will contact with you please give you valid number)<h6>
+                                                </div>
+                                                <form action="register.php" method="post">
+                                                <div class="flex flex-col justify-center items-center mt-10 md:mt-4 space-y-6 md:space-y-8">
+                                                    <div class="">
+                                                        <div class="m-1 text-lg text-gray-200 text-semibold">Name</div>
+                                                        <input type="text" 
+                                                            class="border-b border-gray-200 focus:outline-none  text-gray-200 placeholder:opacity-50 font-semibold md:w-72 lg:w-[340px] bg-transparent" name="Name">
+                                                    </div>
+                                                    <div class="">
+                                                        <div class="m-1 text-lg text-gray-200 text-semibold">Email</div>
+                                                        <input type="text"
+                                                            class="border-b border-gray-200 focus:outline-none  text-gray-200 placeholder:opacity-50 font-semibold md:w-72 lg:w-[340px] bg-transparent" name="Email">
+                                                    </div>
+                                                   <div class="">
+                                                        <div class="m-1 text-lg text-gray-200 text-semibold">Number</div>
+                                                        <input type="text"
+                                                            class="border-b border-gray-200 focus:outline-none  text-gray-200 placeholder:opacity-50 font-semibold md:w-72 lg:w-[340px] bg-transparent" name="Number">
+                                                    </div>
+                                                </div>
+                                                <div class="text-center mt-7">
+                                                    <button
+                                                        class="uppercase px-24 md:px-[118px] lg:px-[140px] py-2 rounded-md text-white bg-gradient-to-t from-stone-900 via-purple-900 to-violet-600  font-medium ">submit</button>
+                                                </div>
+                                            </div>
+                                                                                
+</body>
+</html>
